@@ -109,5 +109,11 @@ def main():
         log_pipeline_run("FAILED", str(e))
         print("❌ Pipeline failed")
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
+#     main()
+def run_pipeline():
     main()
+
+if __name__ == "__main__":
+    run_pipeline()
+

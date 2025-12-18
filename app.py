@@ -1,4 +1,7 @@
 from flask import Flask, render_template
+from pipeline import run_pipeline
+from flask import redirect, url_for
+
 import sqlite3
 
 app = Flask(__name__)
@@ -33,6 +36,16 @@ def dashboard():
         total=total,
         pipeline_status=pipeline_status
     )
+
+@app.route("/refresh")
+def refresh_data():
+    try:
+        run_pipeline()
+    except Exception as e:
+        print("Pipeline refresh failed:", e)
+
+    return redirect(url_for("dashboard"))
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
