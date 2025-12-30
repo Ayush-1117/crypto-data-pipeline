@@ -1,0 +1,13 @@
+2025-12-18 14:19:36,735 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.30.14:5000
+2025-12-18 14:19:36,736 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-18 14:20:11,651 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:11] "GET / HTTP/1.1" 200 -
+2025-12-18 14:20:11,686 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-18 14:20:14,677 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:14] "[32mGET /refresh HTTP/1.1[0m" 302 -
+2025-12-18 14:20:14,685 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:14] "GET / HTTP/1.1" 200 -
+2025-12-18 14:20:16,616 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:16] "[32mGET /refresh HTTP/1.1[0m" 302 -
+2025-12-18 14:20:16,623 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:16] "GET / HTTP/1.1" 200 -
+2025-12-18 14:20:19,329 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:19] "[32mGET /refresh HTTP/1.1[0m" 302 -
+2025-12-18 14:20:19,335 - INFO - 127.0.0.1 - - [18/Dec/2025 14:20:19] "GET / HTTP/1.1" 200 -
